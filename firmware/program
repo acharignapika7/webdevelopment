@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf_8">
+<title>veda fancy</title>
+<style>
+       textarea, input[type=text], input[type=password], {
+            width:100%;
+            margin:8px 0;
+            padding:12px 20px;
+            display:inline-block;
+            border:2px solid
+            box-sizing:border;
+        }
+</style>
+<body style= "background-image : url(/home/student/Downloads/kl.jpeg);">
+       <h1 style="text-align:center;">Login Form</h1>
+           <form style="border:3px solid #f1f1f1;">
+                  <div style="padding:100px; background-image : url(/home/student/Downloads/jil.jpeg);" >
+                          <h4 style="color:brown; text-align:center;"> login in the page to enjoy the free and secure purchase</h4>
+                         <label>Username:</label>
+                         <input type="text;" placeholder="enter the username">
+                          </br>
+                          </br>
+                         <label>Password:</label>
+                         <input type="password;" placeholder="enter the password" maxlength="7">
+                         </br>
+                         </br>
+                          <input type="checkbox" checked="checked">  remember me </input>
+                         <button type="submit">login</button>
+                           </br>
+                            </br>
+                            <button type="button" id="cancelbtn">cancel</button>
+                          </br>
+                          </br>
+                          <a href="resetpass.html"; target="_blank">forgot password</as>
+                           </br>
+                            </br>
+                          <a href="signin.html"; target="_blank">signin page</a>
+                       </div>
+           </form>
+</body>
+</html>
+
+
+
+
+
+<!-- forget password-->
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf_8">
+<title> Reset password</title>
+<body style= "background-image : url(/home/student/Downloads/kl.jpeg);">
+<h1 style="text-align:center;"> RESET PASSWORD </h1>
+     <form style="border:10px solid yellow;">
+                  <div style="padding:100px; background-color:lavender; background-image : url(/home/student/Downloads/jil.jpeg);" >
+                   <h4 style="color:brown; text-align:center;">verify the email address <h4>
+                      </br>
+                          </br>
+                               <label>Email :</label> 
+                              <input type="email" id="email" name="email" placeholder="example.@gmail.com"> 
+                              </br>
+                          </br>
+                      <label> current password:</label>
+                         <input type="password"  id="password" name="password" placeholder="create strong password" maxlength="8">
+                        <label> conform password:</label>
+                         <input type="password"  id="password" name="password" placeholder="conform  password" maxlength="8">
+                           </br>
+                          </br>
+                          <input type="button" value="submit">
+                    
+             </div>
+</body>
+</html>
+
+<!-- sigin in-->
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf_8">
+<title> Sign in</title>
+<style>
+       textarea, input[type=text],input[type=password],input[type=password],input[type=email],input[type=number]{
+            width:100%;
+            margin:8px 0;
+            padding:12px 20px;
+            display:inline-block;
+            border:2px solid
+            box-sizing:border;
+        }
+</style>
+<body style= "background-image : url(/home/student/Downloads/kl.jpeg);">
+<h1 style="text-align:center;"> REGISTER </h1>
+     <form style="border:5px solid yellow;">
+                  <div style="padding:100px; background-color:lavender; background-image : url(/home/student/Downloads/jil.jpeg);" >
+                   <h4 style="color:brown; text-align:center;">Enjoy the services of vedafancy<h4>
+                          </br>
+                          </br>
+                  <label>First name:</label>
+                         <input type="text;" placeholder="enter first name">
+                   <label>Middle name :</label>
+                         <input type="text;" placeholder="enter the middle name">
+                          </br>
+                       <label>Last name :</label>
+                         <input type="text;" placeholder="enter the last name">
+                          </br>
+                          </br>
+                        <label>Shopping :</label> 
+                        <select>
+                                 <option vallue="select the session"> select the session</option>    
+                                <option vallue="fancy"> fancy</option>    
+                                 <option vallue="books"> books</option>  
+                                  <option vallue="gifts"> gifts</option> 
+                                   <option vallue="general items"> general items </option>     
+                         </select>  
+                          </br>
+                          </br>
+                         <label>Gender :</label>  
+                           <input type="radio" name="female">female  
+                              <input type="radio" name="male">fmale  
+                                <input type="radio" name="other">other
+                             </br>
+                          </br>
+                           <label>Phone :</label>
+                                <select>
+                                 <option vallue="select country code"> select the country code</option>    
+                                   <option vallue="pakisthan">+ 91</option>  
+                                <option vallue="pakisthan">+ 92</option>    
+                                 <option vallue="china"> +93</option>  
+                                  <option vallue="korena">+ 94</option> 
+                                   <option vallue="africa"> +95</option>     
+                         </select>  
+                               <input type="number;"  maxlength="10"> 
+                                 </br>
+                          </br>
+                             <label>Place :</label>
+                                <input type="text;" placeholder="enter the adress">
+                                <label>pincode :</label>
+                                <input type="text;" placeholder="enter the pincode of the locality ">
+                          </br>
+                          </br>
+                             <label>Address :</label>
+                                </br>                            
+                           <textarea  cols="50" rows="10" value="address" placeholder="enter your address here"></textarea> 
+                             </br>
+                          </br>
+                               <label>Email :</label> 
+                              <input type="email" id="email" name="email" placeholder="example.@gmail.com">
+                                </br>
+                          </br>
+                      <label> create password:</label>
+                         <input type="password"  id="password" name="password" placeholder="create strong password" maxlength="8">
+                        <label> conform password:</label>
+                         <input type="password"  id="password" name="password" placeholder="conform  password" maxlength="8">
+                           </br>
+                          </br>
+                          <input type="button" value="submit">
+             </div>
+</body>
+</html>
